@@ -20,7 +20,7 @@ public class PrimitiveDataTypesOperations {
         int secondsInAMinute = 60;
         long seconds = 60000000;
         long minutes = seconds / secondsInAMinute; // Allowed
-        // This worlds because since a long is bigger than an int it can store int(s) inside of it without overflowing or causing problems
+        // This works because since a long is bigger than an int it can store int(s) inside of it without overflowing or causing problems
 
     }
 
