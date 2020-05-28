@@ -25,6 +25,10 @@ public class Casting {
 
 
         /*  Another example, this time with floats and doubles  */
+        double price = 87.2;
+        byte people = 12;
+        /*  Correct use of casting  */
+        float pricePerPerson = (float) (price / people);
 
 
     }
