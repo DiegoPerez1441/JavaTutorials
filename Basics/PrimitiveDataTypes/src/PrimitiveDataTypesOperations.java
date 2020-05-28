@@ -47,8 +47,13 @@ public class PrimitiveDataTypesOperations {
 
         double sem1GradeError = 95.3;
         double sem2GradeError = 99.1;
-        // NOT Allowed because a float CAN'T store a double because it is larger than it
+        // NOT Allowed because a float CAN'T store a double because it is larger than it [Hint]: This can be resolved with casting
         // float avgGradeError = (sem1GradeError + sem2GradeError) / 2;
+
+        double pounds = 200d;
+        double convertedToKilograms = pounds * 0.45359237d;
+        System.out.println("Converted kilograms = " + convertedToKilograms);
+
 
     }
 
