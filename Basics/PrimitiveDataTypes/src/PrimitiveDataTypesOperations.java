@@ -24,6 +24,7 @@ public class PrimitiveDataTypesOperations {
         int secondsInAMinute = 60;
         long seconds = 60000000;
         long minutes = seconds / secondsInAMinute; // Allowed
+        System.out.println("minutes: " + minutes);
         // This works because since a long is bigger than an int, it can store int(s) inside of it without overflowing or causing problems
 
 
@@ -34,6 +35,11 @@ public class PrimitiveDataTypesOperations {
         String firstName = "Diego";
         String lastName = "Perez";
         String fullName = firstName + lastName; // Allowed because you can add (concat) strings together
+
+        String month = "May";
+        byte day = 28;
+        short year = 2020;
+        System.out.println(month + ", " + day + " " + year); // Adding numbers to a String IS Allowed
 
 
         /* ****************************************************** */

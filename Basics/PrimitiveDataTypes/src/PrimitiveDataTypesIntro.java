@@ -36,6 +36,8 @@ public class PrimitiveDataTypesIntro {
         boolean isItFalse = false;
 
         char character = 'a'; // The char data type is a single 16-bit Unicode character, meaning that is stores a single character
+        char unicodeCharacter = '\u0044'; // This is the unicode for 'D'
+        System.out.println("Unicode \\u0044 = " + unicodeCharacter);
         /* A String is a special data type (Non-Primitive) that is an object (As shown by the uppercase name), it is a collection of char data types stored
             in an array. So don't worry about it at this moment as it will be covered later */
         String name = "Diego";

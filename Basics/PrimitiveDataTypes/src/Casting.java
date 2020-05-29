@@ -22,6 +22,7 @@ public class Casting {
         // byte avgValue = (value1 + value2) / 2;
         /*  Correct  */
         byte avgValue = (byte) ((value1 + value2) / 2);
+        System.out.println("avgValue: " + avgValue);
 
 
         /*  Another example, this time with floats and doubles  */
@@ -29,6 +30,7 @@ public class Casting {
         byte people = 12;
         /*  Correct use of casting  */
         float pricePerPerson = (float) (price / people);
+        System.out.println("pricePerPerson: " + pricePerPerson);
 
 
     }
