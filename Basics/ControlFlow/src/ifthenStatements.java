@@ -23,12 +23,16 @@ public class ifthenStatements {
                 || Logical or
                 !  Logical not
 
+                &&: BOTH terms have to be true for this to output true, else outputs false
+                ||: EITHER one or BOTH of the terms have to be true for this to output true, if they are BOTH false, it outputs false
+                ! : This reverses a boolean expression, so a true boolean will output false, and a false boolean will output true
+
         */
 
         boolean isItRaining = true;
 
         /* If the condition in the parenthesis after the if is evaluated to be true then the code inside
-           the {} is run, else the code in the {} following the else is run if that condition turns out to be false */
+            the {} is run, else the code in the {} following the else is run if that condition turns out to be false */
         if (isItRaining == true) {
             System.out.println("It is raining outside");
         } else {
