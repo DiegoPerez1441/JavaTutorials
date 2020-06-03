@@ -42,6 +42,28 @@ public class ifthenStatements {
         System.out.println("____________________");
 
 
+        /*----------------------------------------------------------*/
+        /*-------------------- Ternary Operator --------------------*/
+        /*----------------------------------------------------------*/
+        /* The Ternary Operator is a short hand way of writing an if-then statement */
+
+        boolean didItRain = (isItRaining == true) ? true : false; // didItRain will be set to true
+        // boolean didItRain = (isItRaining) ? true : false; // Same thing just more compact because isItRaining just substitutes its value into the expression
+
+        /*
+            Basically the first statement is the condition, if it evaluates to true then what is after the ? gets executed
+                if it turns out to be false then the code after the : will be executed
+            In summary, it is just a compact way of writing an if statement
+
+            Syntax:
+                = (condition) ? resultIfTrue : resultIfFalse
+        */
+
+
+        /*----------------------------------------------------------*/
+        /*------------------ Nested if statements ------------------*/
+        /*----------------------------------------------------------*/
+
         /*
             You can also layer if, else if, and else statements to choose what you want to test for with more detail
 
