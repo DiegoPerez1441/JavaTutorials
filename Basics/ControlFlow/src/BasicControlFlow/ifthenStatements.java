@@ -1,4 +1,4 @@
-package BasicControlFlow;
+package BasicControlFlow; // This is just a package, a method of organizing code into sections
 
 public class ifthenStatements {
 
