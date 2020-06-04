@@ -1,3 +1,5 @@
+package BasicControlFlow;
+
 public class ifthenStatements {
 
     public static void main(String[] args) {
@@ -72,17 +74,17 @@ public class ifthenStatements {
             or ultimately does't run anything and just skips through everything
         */
 
-        byte grade = 82;
+        int grade = 82;
 
         if (grade < 70) {
             System.out.println("You're failing");
-        } else if (grade < 80) {
+        } else if (grade < 80) { // If the condition above was false run this if grade < 80
             System.out.println("You're passing!");
-        } else if (grade < 90) {
+        } else if (grade < 90) { // If the condition above was false run this if grade < 90
             System.out.println("You have an B!");
-        } else if (grade < 100) {
+        } else if (grade < 100) { // If the condition above was false run this if grade < 100
             System.out.println("You have an A!");
-        } else {
+        } else { // If nothing above is true, run this
             System.out.println("You have an A+!");
         }
 
