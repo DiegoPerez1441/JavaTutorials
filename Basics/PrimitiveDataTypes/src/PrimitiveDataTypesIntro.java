@@ -17,6 +17,9 @@ public class PrimitiveDataTypesIntro {
 
             However data comes in all shapes and forms and that is why data types are made to distinguish between them
                 just as a name is different from age in the sense that a name is text while age is composed of a number
+
+            You can create a variable by putting its data type first, then its name (following conventions like camelCase),
+                setting it equal to a value, and ending it with a semicolon(;) ex: int variable = 14;
          */
 
 
@@ -41,6 +44,20 @@ public class PrimitiveDataTypesIntro {
         /* A String is a special data type (Non-Primitive) that is an object (As shown by the uppercase name), it is a collection of char data types stored
             in an array. So don't worry about it at this moment as it will be covered later */
         String name = "Diego";
+
+        /* ****************************************************** */
+        /*                Reassigning Variables                   */
+        /* ****************************************************** */
+
+        /*
+            Just as you can create and initialize variables, you can also reassign them with a new value just by
+                typing the variable name an setting it equal to a new value (of the correct data type, more on this in Casting.java)
+        */
+
+        int variable = 10; // Initializing and assigning a variable
+        int test; // initializing variable
+        test = 20; // assigning variable
+        test = 24; // reassigning variable
 
         /* ****************************************************** */
         /*                Overflow experiments                    */
