@@ -21,7 +21,7 @@ You will need to have Java, a JDK, and an IDE installed on you computer (**Perfe
   [Note]: This will also install all of the tools nesessary for Java developoment
 
 ### Installing the IDE
-1. Go to (https://www.jetbrains.com/idea/download/#section=windows)
+1. Go to (https://www.jetbrains.com/idea/download/)
 2. Make sure you get the right version of the IDE for your operating system. Once it finishes downloading, run the file downloaded and it will install the IntelliJ Idea IDE
   [Note]: Configuration is required
 
