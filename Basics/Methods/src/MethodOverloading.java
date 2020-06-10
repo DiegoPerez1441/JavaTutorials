@@ -75,6 +75,13 @@ public class MethodOverloading {
     public static double calculateMetersToKilometers(double meters) {
         return ((double)(meters) / 1000); // We need to cast meters to a double
     }
+    // You can even overload a function and have it do different things
+    public static double calculateMetersToKilometers(double meters, int decimalPlaces) {
+        double result = ((double)(meters) / 1000);
+        int dp = (int) Math.pow(10, decimalPlaces);
+        double result_trimmed = Math.floor(result * dp) / dp;
+        return result_trimmed;
+    }
 
     public static void main(String[] args) {
 
@@ -111,7 +118,7 @@ public class MethodOverloading {
         result = calculateMetersToKilometers(10245.3f);
         System.out.println(result);
 
-        result = calculateMetersToKilometers(1458.189);
+        result = calculateMetersToKilometers(1458.189, 4);
         System.out.println(result);
 
     }
