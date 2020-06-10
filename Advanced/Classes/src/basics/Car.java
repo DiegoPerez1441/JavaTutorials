@@ -7,7 +7,7 @@ public class Car {
         They keyword private is an access modifier that makes it so that these variables are private to anything outside of the class
     */
 
-    // A set of Car properties
+    // A set of Car properties. Also called fields
     private int doors;
     private int wheels;
     private String model;
