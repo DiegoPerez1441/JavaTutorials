@@ -7,7 +7,8 @@ public class Main {
 
         Dog dog = new Dog("Husky", 7, 20, 2, 4, 1, 24, "Silky");
         dog.eat(); // Inherited from the Animal Class because it is a public method, which means that it can be accessed from outside of Animal
-
+        dog.walk();
+        dog.run();
     }
 
 }
