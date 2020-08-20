@@ -11,7 +11,7 @@ YouTube tutorials can be found [here](https://www.youtube.com/playlist?list=PLmk
 6. [Opening the Examples](#opening-the-examples)
 
 ## Getting Started
-The installation and running of this program will very from device to device but its relatively similar.
+The installation and running of Java and IntelliJ IDE will vary from device to device but its relatively similar.
 
 ## Prerequisites
 You will need to have Java, a JDK, and an IDE installed on you computer (**Perferably the Java JDK 8 or above. I'm using version 14 and the IntelliJ Idea IDE**)
