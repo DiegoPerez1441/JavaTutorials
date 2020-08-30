@@ -1,6 +1,6 @@
 # Java Tutorials
 This is a Tutorial on how to learn Java. All of the way from basic to advanced concepts.
-YouTube tutorials can be found [here](https://www.youtube.com/playlist?list=PLmkfdZYP5rdviyS0m5Rw7-0Kdk11cW_rZ)
+YouTube tutorials can be found [here](https://www.youtube.com/playlist?list=PL-OSA3gOBWqC5qrA_PtL_TM2pVRIJx8ld)
 
 ## Overview
 1. [Getting Started](#getting-started)
