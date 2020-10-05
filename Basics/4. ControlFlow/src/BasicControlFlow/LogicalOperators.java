@@ -63,12 +63,15 @@ public class LogicalOperators {
 
         boolean isPhoneCharged = false;
         boolean hasPortableBattery = true;
+        boolean hasCharger = false;
 
         // EITHER one of these variables have to be true for the if statement to return true and execute the code in the {}
-        if (isPhoneCharged || hasPortableBattery) {
+        if (isPhoneCharged) {
             System.out.println("You're good to go!");
+        } else if(hasCharger || hasPortableBattery) {
+            System.out.println("Phew");
         } else {
-            System.out.println("Get a phone charger...");
+            System.out.println("Go ask a friend...");
         }
 
         System.out.println("____________________");
